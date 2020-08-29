@@ -1,7 +1,7 @@
 {
   "name": "learning.webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "learing webpack",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development"
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/homma509/learning.webpack#readme",
   "devDependencies": {
+    "css-loader": "^4.2.2",
     "live-server": "^1.2.1",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
